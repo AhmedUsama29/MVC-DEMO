@@ -1,9 +1,10 @@
-namespace Demo_Sec_2
+namespace MVC_DEMO
 {
     public class Program
     {
         public static void Main(string[] args)
         {
+
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddControllersWithViews();
 
@@ -72,8 +73,10 @@ namespace Demo_Sec_2
             //    constraints: new { id = @"\d{2}" }
             //);
 
-
+            
             app.Run();
+
+
         }
     }
 }
