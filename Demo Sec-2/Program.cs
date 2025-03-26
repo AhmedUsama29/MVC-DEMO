@@ -1,4 +1,4 @@
-namespace MVC_DEMO
+namespace Demo_Sec_2
 {
     public class Program
     {
@@ -9,6 +9,7 @@ namespace MVC_DEMO
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
+
 
             if (app.Environment.IsDevelopment())
             {
